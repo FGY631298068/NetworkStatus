@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A52A55AF1CD9EF7300757212 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A52A55AE1CD9EF7300757212 /* main.m */; };
+		A52A55B21CD9EF7300757212 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A52A55B11CD9EF7300757212 /* AppDelegate.m */; };
+		A52A55B51CD9EF7300757212 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A52A55B41CD9EF7300757212 /* ViewController.m */; };
+		A52A55B81CD9EF7300757212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52A55B61CD9EF7300757212 /* Main.storyboard */; };
+		A52A55BA1CD9EF7300757212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52A55B91CD9EF7300757212 /* Assets.xcassets */; };
+		A52A55BD1CD9EF7300757212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52A55BB1CD9EF7300757212 /* LaunchScreen.storyboard */; };
+		A52A55C81CD9EF7300757212 /* NetworkStatusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A52A55C71CD9EF7300757212 /* NetworkStatusTests.m */; };
+		A52A55D31CD9EF7300757212 /* NetworkStatusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A52A55D21CD9EF7300757212 /* NetworkStatusUITests.m */; };
+		A52A55EB1CD9EF9C00757212 /* CoreStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = A52A55E21CD9EF9C00757212 /* CoreStatus.m */; };
+		A52A55EC1CD9EF9C00757212 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A52A55E81CD9EF9C00757212 /* Reachability.m */; };
+		A52A55F01CD9EFC400757212 /* UIView+LXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A52A55EF1CD9EFC400757212 /* UIView+LXAlertView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A52A55C41CD9EF7300757212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A52A55A21CD9EF7300757212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A52A55A91CD9EF7300757212;
+			remoteInfo = NetworkStatus;
+		};
+		A52A55CF1CD9EF7300757212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A52A55A21CD9EF7300757212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A52A55A91CD9EF7300757212;
+			remoteInfo = NetworkStatus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A52A55AA1CD9EF7300757212 /* NetworkStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52A55AE1CD9EF7300757212 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A52A55B01CD9EF7300757212 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A52A55B11CD9EF7300757212 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A52A55B31CD9EF7300757212 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A52A55B41CD9EF7300757212 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A52A55B71CD9EF7300757212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A52A55B91CD9EF7300757212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A52A55BC1CD9EF7300757212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A52A55BE1CD9EF7300757212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52A55C31CD9EF7300757212 /* NetworkStatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkStatusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52A55C71CD9EF7300757212 /* NetworkStatusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkStatusTests.m; sourceTree = "<group>"; };
+		A52A55C91CD9EF7300757212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52A55CE1CD9EF7300757212 /* NetworkStatusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkStatusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52A55D21CD9EF7300757212 /* NetworkStatusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkStatusUITests.m; sourceTree = "<group>"; };
+		A52A55D41CD9EF7300757212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52A55E11CD9EF9C00757212 /* CoreStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreStatus.h; sourceTree = "<group>"; };
+		A52A55E21CD9EF9C00757212 /* CoreStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreStatus.m; sourceTree = "<group>"; };
+		A52A55E41CD9EF9C00757212 /* CoreNetworkStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreNetworkStatus.h; sourceTree = "<group>"; };
+		A52A55E51CD9EF9C00757212 /* CoreStatusProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreStatusProtocol.h; sourceTree = "<group>"; };
+		A52A55E71CD9EF9C00757212 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		A52A55E81CD9EF9C00757212 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		A52A55EA1CD9EF9C00757212 /* CoreStatusSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreStatusSingleton.h; sourceTree = "<group>"; };
+		A52A55EE1CD9EFC400757212 /* UIView+LXAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LXAlertView.h"; sourceTree = "<group>"; };
+		A52A55EF1CD9EFC400757212 /* UIView+LXAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LXAlertView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A52A55A71CD9EF7300757212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52A55C01CD9EF7300757212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52A55CB1CD9EF7300757212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A52A55A11CD9EF7300757212 = {
+			isa = PBXGroup;
+			children = (
+				A52A55AC1CD9EF7300757212 /* NetworkStatus */,
+				A52A55C61CD9EF7300757212 /* NetworkStatusTests */,
+				A52A55D11CD9EF7300757212 /* NetworkStatusUITests */,
+				A52A55AB1CD9EF7300757212 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A52A55AB1CD9EF7300757212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A52A55AA1CD9EF7300757212 /* NetworkStatus.app */,
+				A52A55C31CD9EF7300757212 /* NetworkStatusTests.xctest */,
+				A52A55CE1CD9EF7300757212 /* NetworkStatusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A52A55AC1CD9EF7300757212 /* NetworkStatus */ = {
+			isa = PBXGroup;
+			children = (
+				A52A55ED1CD9EFC400757212 /* LXAlertView */,
+				A52A55E01CD9EF9C00757212 /* CoreStatus */,
+				A52A55B01CD9EF7300757212 /* AppDelegate.h */,
+				A52A55B11CD9EF7300757212 /* AppDelegate.m */,
+				A52A55B31CD9EF7300757212 /* ViewController.h */,
+				A52A55B41CD9EF7300757212 /* ViewController.m */,
+				A52A55B61CD9EF7300757212 /* Main.storyboard */,
+				A52A55B91CD9EF7300757212 /* Assets.xcassets */,
+				A52A55BB1CD9EF7300757212 /* LaunchScreen.storyboard */,
+				A52A55BE1CD9EF7300757212 /* Info.plist */,
+				A52A55AD1CD9EF7300757212 /* Supporting Files */,
+			);
+			path = NetworkStatus;
+			sourceTree = "<group>";
+		};
+		A52A55AD1CD9EF7300757212 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A52A55AE1CD9EF7300757212 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A52A55C61CD9EF7300757212 /* NetworkStatusTests */ = {
+			isa = PBXGroup;
+			children = (
+				A52A55C71CD9EF7300757212 /* NetworkStatusTests.m */,
+				A52A55C91CD9EF7300757212 /* Info.plist */,
+			);
+			path = NetworkStatusTests;
+			sourceTree = "<group>";
+		};
+		A52A55D11CD9EF7300757212 /* NetworkStatusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A52A55D21CD9EF7300757212 /* NetworkStatusUITests.m */,
+				A52A55D41CD9EF7300757212 /* Info.plist */,
+			);
+			path = NetworkStatusUITests;
+			sourceTree = "<group>";
+		};
+		A52A55E01CD9EF9C00757212 /* CoreStatus */ = {
+			isa = PBXGroup;
+			children = (
+				A52A55E11CD9EF9C00757212 /* CoreStatus.h */,
+				A52A55E21CD9EF9C00757212 /* CoreStatus.m */,
+				A52A55E31CD9EF9C00757212 /* Lib */,
+			);
+			path = CoreStatus;
+			sourceTree = "<group>";
+		};
+		A52A55E31CD9EF9C00757212 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				A52A55E41CD9EF9C00757212 /* CoreNetworkStatus.h */,
+				A52A55E51CD9EF9C00757212 /* CoreStatusProtocol.h */,
+				A52A55E61CD9EF9C00757212 /* Reachability */,
+				A52A55E91CD9EF9C00757212 /* Singleton */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		A52A55E61CD9EF9C00757212 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				A52A55E71CD9EF9C00757212 /* Reachability.h */,
+				A52A55E81CD9EF9C00757212 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		A52A55E91CD9EF9C00757212 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				A52A55EA1CD9EF9C00757212 /* CoreStatusSingleton.h */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		A52A55ED1CD9EFC400757212 /* LXAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				A52A55EE1CD9EFC400757212 /* UIView+LXAlertView.h */,
+				A52A55EF1CD9EFC400757212 /* UIView+LXAlertView.m */,
+			);
+			path = LXAlertView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A52A55A91CD9EF7300757212 /* NetworkStatus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A52A55D71CD9EF7300757212 /* Build configuration list for PBXNativeTarget "NetworkStatus" */;
+			buildPhases = (
+				A52A55A61CD9EF7300757212 /* Sources */,
+				A52A55A71CD9EF7300757212 /* Frameworks */,
+				A52A55A81CD9EF7300757212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetworkStatus;
+			productName = NetworkStatus;
+			productReference = A52A55AA1CD9EF7300757212 /* NetworkStatus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A52A55C21CD9EF7300757212 /* NetworkStatusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A52A55DA1CD9EF7300757212 /* Build configuration list for PBXNativeTarget "NetworkStatusTests" */;
+			buildPhases = (
+				A52A55BF1CD9EF7300757212 /* Sources */,
+				A52A55C01CD9EF7300757212 /* Frameworks */,
+				A52A55C11CD9EF7300757212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A52A55C51CD9EF7300757212 /* PBXTargetDependency */,
+			);
+			name = NetworkStatusTests;
+			productName = NetworkStatusTests;
+			productReference = A52A55C31CD9EF7300757212 /* NetworkStatusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A52A55CD1CD9EF7300757212 /* NetworkStatusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A52A55DD1CD9EF7300757212 /* Build configuration list for PBXNativeTarget "NetworkStatusUITests" */;
+			buildPhases = (
+				A52A55CA1CD9EF7300757212 /* Sources */,
+				A52A55CB1CD9EF7300757212 /* Frameworks */,
+				A52A55CC1CD9EF7300757212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A52A55D01CD9EF7300757212 /* PBXTargetDependency */,
+			);
+			name = NetworkStatusUITests;
+			productName = NetworkStatusUITests;
+			productReference = A52A55CE1CD9EF7300757212 /* NetworkStatusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A52A55A21CD9EF7300757212 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "范国义";
+				TargetAttributes = {
+					A52A55A91CD9EF7300757212 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A52A55C21CD9EF7300757212 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A52A55A91CD9EF7300757212;
+					};
+					A52A55CD1CD9EF7300757212 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A52A55A91CD9EF7300757212;
+					};
+				};
+			};
+			buildConfigurationList = A52A55A51CD9EF7300757212 /* Build configuration list for PBXProject "NetworkStatus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A52A55A11CD9EF7300757212;
+			productRefGroup = A52A55AB1CD9EF7300757212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A52A55A91CD9EF7300757212 /* NetworkStatus */,
+				A52A55C21CD9EF7300757212 /* NetworkStatusTests */,
+				A52A55CD1CD9EF7300757212 /* NetworkStatusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A52A55A81CD9EF7300757212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52A55BD1CD9EF7300757212 /* LaunchScreen.storyboard in Resources */,
+				A52A55BA1CD9EF7300757212 /* Assets.xcassets in Resources */,
+				A52A55B81CD9EF7300757212 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52A55C11CD9EF7300757212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52A55CC1CD9EF7300757212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A52A55A61CD9EF7300757212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52A55EB1CD9EF9C00757212 /* CoreStatus.m in Sources */,
+				A52A55B51CD9EF7300757212 /* ViewController.m in Sources */,
+				A52A55F01CD9EFC400757212 /* UIView+LXAlertView.m in Sources */,
+				A52A55B21CD9EF7300757212 /* AppDelegate.m in Sources */,
+				A52A55AF1CD9EF7300757212 /* main.m in Sources */,
+				A52A55EC1CD9EF9C00757212 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52A55BF1CD9EF7300757212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52A55C81CD9EF7300757212 /* NetworkStatusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52A55CA1CD9EF7300757212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52A55D31CD9EF7300757212 /* NetworkStatusUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A52A55C51CD9EF7300757212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A52A55A91CD9EF7300757212 /* NetworkStatus */;
+			targetProxy = A52A55C41CD9EF7300757212 /* PBXContainerItemProxy */;
+		};
+		A52A55D01CD9EF7300757212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A52A55A91CD9EF7300757212 /* NetworkStatus */;
+			targetProxy = A52A55CF1CD9EF7300757212 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A52A55B61CD9EF7300757212 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A52A55B71CD9EF7300757212 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A52A55BB1CD9EF7300757212 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A52A55BC1CD9EF7300757212 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A52A55D51CD9EF7300757212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A52A55D61CD9EF7300757212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A52A55D81CD9EF7300757212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NetworkStatus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcgames.NetworkStatus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A52A55D91CD9EF7300757212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NetworkStatus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcgames.NetworkStatus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A52A55DB1CD9EF7300757212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NetworkStatusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcgames.NetworkStatusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkStatus.app/NetworkStatus";
+			};
+			name = Debug;
+		};
+		A52A55DC1CD9EF7300757212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NetworkStatusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcgames.NetworkStatusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkStatus.app/NetworkStatus";
+			};
+			name = Release;
+		};
+		A52A55DE1CD9EF7300757212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NetworkStatusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcgames.NetworkStatusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NetworkStatus;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A52A55DF1CD9EF7300757212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NetworkStatusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcgames.NetworkStatusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NetworkStatus;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A52A55A51CD9EF7300757212 /* Build configuration list for PBXProject "NetworkStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52A55D51CD9EF7300757212 /* Debug */,
+				A52A55D61CD9EF7300757212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A52A55D71CD9EF7300757212 /* Build configuration list for PBXNativeTarget "NetworkStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52A55D81CD9EF7300757212 /* Debug */,
+				A52A55D91CD9EF7300757212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A52A55DA1CD9EF7300757212 /* Build configuration list for PBXNativeTarget "NetworkStatusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52A55DB1CD9EF7300757212 /* Debug */,
+				A52A55DC1CD9EF7300757212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A52A55DD1CD9EF7300757212 /* Build configuration list for PBXNativeTarget "NetworkStatusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52A55DE1CD9EF7300757212 /* Debug */,
+				A52A55DF1CD9EF7300757212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A52A55A21CD9EF7300757212 /* Project object */;
+}
